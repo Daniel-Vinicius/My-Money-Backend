@@ -1,3 +1,5 @@
+const MONGO_URL='mongodb+srv://<username>:<password>@cluster-do-my-money-app.6cnx1.mongodb.net/<dbname>?retryWrites=true&w=majority'
+
 const mongoose = require('mongoose')
 mongoose.Promise = global.Promise
 module.exports = mongoose.connect('mongodb://localhost/mymoney'
