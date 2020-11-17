@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/loader.js",
+  
+    "engines": {
+    "node": "14.x",
+    "yarn": "1.x",
+     "npm": "6.x"
+  },
+  
   "scripts": {
     "dev": "nodemon",
     "production": "pm2 start src/loader.js --name my-money-backend"
