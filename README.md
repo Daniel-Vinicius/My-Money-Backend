@@ -1,5 +1,7 @@
 # My Money Backend
 
+<p>✔ Um Backend que utiliza: Node.js, Express.js, Mongodb, Heroku e JWT que está finalizado e hospedado no Heroku.</p>
+
 **Projeto em Finalizado e Hospedado no Heroku**
 
 O que eu fiz:
