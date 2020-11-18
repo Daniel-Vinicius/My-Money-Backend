@@ -3,13 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/loader.js",
-  
-    "engines": {
+  "engines": {
     "node": "14.x",
     "yarn": "1.x",
-     "npm": "6.x"
+    "npm": "6.x"
   },
-  
   "scripts": {
     "dev": "nodemon",
     "production": "pm2 start src/loader.js --name my-money-backend"
@@ -18,7 +16,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "3.0.0",
+    "bcrypt": "5.0.0",
     "body-parser": "1.18.3",
     "express": "4.16.3",
     "express-query-int": "3.0.0",
