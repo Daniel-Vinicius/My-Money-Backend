@@ -1,4 +1,4 @@
-const MONGO_URL='mongodb+srv://MyMoney:1-2-3-Mudar@cluster-do-my-money-app.6cnx1.mongodb.net/mymoney?retryWrites=true&w=majority'
+const MONGO_URL = process.env.MONGO_URL
 
 const mongoose = require('mongoose')
 mongoose.Promise = global.Promise
@@ -14,6 +14,3 @@ mongoose.Error.messages.String.enum =
     "'{VALUE}' não é válido para o atributo '{PATH}'."
 
 console.log("Banco conectado");
-
-
-// mongodb+srv://Daniel:<password>@cluster0.6cnx1.mongodb.net/mymoney
