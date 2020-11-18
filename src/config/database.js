@@ -1,8 +1,8 @@
-const MONGO_URL='mongodb+srv://<username>:<password>@cluster-do-my-money-app.6cnx1.mongodb.net/<dbname>?retryWrites=true&w=majority'
+const MONGO_URL='mongodb+srv://MyMoney:1-2-3-Mudar@cluster-do-my-money-app.6cnx1.mongodb.net/mymoney?retryWrites=true&w=majority'
 
 const mongoose = require('mongoose')
 mongoose.Promise = global.Promise
-module.exports = mongoose.connect('mongodb://localhost/mymoney'
+module.exports = mongoose.connect(MONGO_URL
     , { useNewUrlParser: true })
 
 mongoose.Error.messages.general.required = "O atributo '{PATH}' é obrigatório."
