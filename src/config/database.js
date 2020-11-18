@@ -1,4 +1,4 @@
-const MONGO_URL = process.env.MONGO_URL || 'mongodb://localhost/mymoney'
+const MONGO_URL = process.env.MONGO_URL
 
 const mongoose = require('mongoose')
 mongoose.Promise = global.Promise
