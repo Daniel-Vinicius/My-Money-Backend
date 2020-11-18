@@ -18,8 +18,8 @@ O Backend de um <a target='_blank' href='https://github.com/Daniel-Vinicius/My-M
 Os endpoints podem ser encontrados <a target='_blank' href='https://github.com/Daniel-Vinicius/My-Money-Backend/blob/main/src/config/routes.js'>aqui</a>
 
 ### Features 
-- [x] Segurança contra ataques de força bruta
-- [x] Segurança contra ataques ddos
+- [x] Segurança contra Ataques de Força Bruta
+- [x] Segurança contra Ataques DDoS
 - [x] Criptografia
 - [x] Login
 - [x] Hospedado
