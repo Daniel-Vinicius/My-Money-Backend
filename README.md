@@ -65,7 +65,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
  $ npm i 
  
  ````
- **Importante**: Siga <a target='_blank' href='https://github.com/Daniel-Vinicius/My-Money-Backend/instrucoes.md'>as instruções</a> conforme forem passadas
+ **Importante**: Siga <a target='_blank' href='https://github.com/Daniel-Vinicius/My-Money-Backend/blob/main/instru%C3%A7%C3%B5es.md'>as instruções</a> conforme forem passadas
  ```
  
  # Execute a aplicação em modo de desenvolvimento
