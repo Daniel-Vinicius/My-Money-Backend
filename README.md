@@ -19,7 +19,7 @@ Os endpoints podem ser encontrados <a target='_blank' href='https://github.com/D
 
 ### Features 
 - [x] Segurança contra ataques de força bruta
-- [x] Segurança contra ataques xddos
+- [x] Segurança contra ataques ddos
 - [x] Criptografia
 - [x] Login
 - [x] Hospedado
